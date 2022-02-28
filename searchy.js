@@ -1,1 +1,6 @@
-console.log('searchy.js loaded');
+const trigger = document.querySelector('.header__icon--search');
+
+trigger.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log('clicked');
+})
